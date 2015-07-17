@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="negotiapp_files/jquery.min.js"></script>
+    <script type="text/javascript" src="negotiapp_files/bootstrap.min.js"></script>
+    <link href="negotiapp_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="negotiapp_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="navigation.css" rel="stylesheet" type="text/css">
+
+    <script>
+        var $buoop = {vs:{i:10,f:35,o:25,s:7},c:2};
+        function $buo_f(){
+            var e = document.createElement("script");
+            e.src = "//browser-update.org/update.min.js";
+            document.body.appendChild(e);
+        };
+        try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+        catch(e){window.attachEvent("onload", $buo_f)}
+    </script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="horizontal-menu">
+
+        <div class="icon-menu">
+            <!-- Single button -->
+            <div class="btn-group">
+            </div>
+        </div>
+
+        <div class="negoxi-icon">
+            <a class="navbar-brand" href="#"><span>NegoxiApp</span><br></a>
+        </div>
+
+        <div class="signout">
+            <a class="navbar-brand" href="login.html"><span>Sign In </span><i class="fa fa-sign-in"></i><br></a>
+        </div>
+
+    </div>
+</nav>
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-success" role="alert">
+                    <h3>You have succesfully logged out of NegoxiApp</h3><br>
+                    <b>Looking forward to helping you negotiation once more later again!</b>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

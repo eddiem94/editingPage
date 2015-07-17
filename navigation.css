@@ -1,0 +1,75 @@
+
+
+
+.icon-menu {
+    color: #FFF;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    padding-left: 32px;
+}
+
+.icon-menu i {
+    margin-top: 5px;
+    margin-right: 5px;
+
+}
+
+/****************************************************** Horizontal Menu******************************************/
+.horizontal-menu {
+    background: #000;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+
+}
+
+
+.negoxi-icon {
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 0px;
+    float: left;
+}
+
+
+.current-item {
+    color: #fff;
+    margin-left: 45%;
+    margin-right: 30%;
+    position: static;
+
+
+}
+
+.signout {
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    margin-right: 15px;
+    position: static;
+}
+
+.icon-signout {
+    color: #FFF;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icon-signout i {
+    margin-top: 15px;
+    margin-right: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
